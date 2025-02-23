@@ -19,19 +19,11 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 
-public class MirrorButton : UdonSharpBehaviour
-{
+public class MirrorButton : UdonSharpBehaviour {
     public GameObject mirror;
 
-    //void Start()
-    //{
-    //    
-    //}
-
-    public override void Interact()
-    {
+    public override void Interact() {
         mirror.SetActive(!mirror.activeSelf);
-
-        //base.Interact();
+        base.Interact();
     }
 }
