@@ -64,18 +64,35 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\USharpVideo\Scripts\VideoPlayerManager.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\InteractToggle.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\UI\UIStyle.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\USharpVideoPlayer.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\Utility\RendererGIUpdate.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\Utility\RenderTextureOutput.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\UI\SyncModeController.cs" />
     <Compile Include="Assets\Dens Stuff\MirrorButton.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\VideoControlHandler.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\Synced\MasterToggleObject.cs" />
     <Compile Include="Assets\Dens Stuff\TeleportButton.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\UI\UIStyler.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\PlayerModSetter.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\Utility\ObjectToggle.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\UI\UIStyleMarkup.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\BoneFollower.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\TrackingDataFollower.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\UI\VolumeController.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\WorldAudioSettings.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\Synced\GlobalToggleObject.cs" />
+    <Compile Include="Assets\USharpVideo\Scripts\Utility\VideoScreenHandler.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\USharpVideo\Shaders\StandardVideoEmissive.shader" />
+    <None Include="Assets\USharpVideo\Shaders\StandardVideoCore.cginc" />
+    <None Include="Assets\USharpVideo\Shaders\CRTRenderTextureProcessor.shader" />
+    <None Include="Assets\USharpVideo\version.txt" />
     <None Include="Assets\UdonSharp\UtilityScripts\ExampleUtilityTemplate.txt" />
+    <None Include="Assets\USharpVideo\Shaders\UI-MerlinUI.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
