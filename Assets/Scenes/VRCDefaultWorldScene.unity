@@ -299,6 +299,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5763291999984889045, guid: 87d772cf1b1ec7b49839dde29eb427be,
         type: 3}
+      propertyPath: defaultVolume
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763291999984889045, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
       propertyPath: playlist.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -328,11 +333,21 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6421412927393154343, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 35630e38b4e5ffb40b44ec5348b4333f, type: 2}
     - target: {fileID: 6421412927428811954, guid: 87d772cf1b1ec7b49839dde29eb427be,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: VRC.Udon.UdonBehaviour, VRC.Udon
       objectReference: {fileID: 0}
+    - target: {fileID: 6421412927459197311, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 35630e38b4e5ffb40b44ec5348b4333f, type: 2}
     - target: {fileID: 6421412927524094469, guid: 87d772cf1b1ec7b49839dde29eb427be,
         type: 3}
       propertyPath: _syncMethod
@@ -355,6 +370,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 96fc637bee5f96547970a0039b515566,
         type: 2}
+    - target: {fileID: 6421412927527902305, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 35630e38b4e5ffb40b44ec5348b4333f, type: 2}
     - target: {fileID: 6421412927603355384, guid: 87d772cf1b1ec7b49839dde29eb427be,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -371,6 +391,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1036b63c2a2cf084fa20fe5d44198e3f,
         type: 2}
+    - target: {fileID: 6421412928139285895, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6421412928178292072, guid: 87d772cf1b1ec7b49839dde29eb427be,
         type: 3}
       propertyPath: _syncMethod
@@ -452,6 +477,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: USharpVideo
       objectReference: {fileID: 0}
+    - target: {fileID: 6421412928253111332, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 35630e38b4e5ffb40b44ec5348b4333f, type: 2}
     - target: {fileID: 6421412928314014391, guid: 87d772cf1b1ec7b49839dde29eb427be,
         type: 3}
       propertyPath: _syncMethod
@@ -463,6 +493,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: b81d89cf7ca24c44597d7baa68601b12,
         type: 2}
+    - target: {fileID: 6421412928426216311, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6421412928540815177, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
+      propertyPath: m_Value
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6421412928540815177, guid: 87d772cf1b1ec7b49839dde29eb427be,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -479,6 +519,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: e7f205777544cc846969b95fd360f10b,
         type: 2}
+    - target: {fileID: 6421412928700735312, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 35630e38b4e5ffb40b44ec5348b4333f, type: 2}
+    - target: {fileID: 6421412928723783923, guid: 87d772cf1b1ec7b49839dde29eb427be,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 6421412928723783923, guid: 87d772cf1b1ec7b49839dde29eb427be,
         type: 3}
       propertyPath: Spatialize
