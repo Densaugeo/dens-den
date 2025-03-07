@@ -82,6 +82,7 @@
     <Compile Include="Assets\USharpVideo\Scripts\UI\UIStyleMarkup.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\BoneFollower.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\TrackingDataFollower.cs" />
+    <Compile Include="Assets\Dens Stuff\Scene_UdonProgramSources\TeamList.cs" />
     <Compile Include="Assets\USharpVideo\Scripts\UI\VolumeController.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\WorldAudioSettings.cs" />
     <Compile Include="Assets\UdonSharp\UtilityScripts\Synced\GlobalToggleObject.cs" />
