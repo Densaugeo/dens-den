@@ -9,11 +9,16 @@ using VRC.Udon;
 public class TeamButton : UdonSharpBehaviour {
     public TeamList team_list;
     public Team team;
+    public Material disabled_material;
+    public Material original_material;
 
-    void Start() {}
+    void Start() {
+        original_material = this.gameObject.GetComponent<MeshRenderer>()
+            .material;
+    }
 
     public override void Interact() {
-        if(Networking.IsOwner(Networking.LocalPlayer, this.gameObject)) {
+        if(Networking.LocalPlayer.isMaster) {
             team_list.ToggleTeamAssignment(Networking.LocalPlayer, team);
         } else {
             // Ownership request will always be denied. It is only sent as a
@@ -36,5 +41,16 @@ public class TeamButton : UdonSharpBehaviour {
         // Deny every ownership request -  they're only for transmitting player
         // IDs, we don't actually want to transfer ownership
         return false;
+    }
+
+    // Lock out this button if an ownership request is already active
+    public override void OnOwnershipTransferred(VRCPlayerApi new_owner) {
+        bool enabled = Networking.LocalPlayer.isMaster ||
+            Networking.LocalPlayer != new_owner;
+
+        this.DisableInteractive = !enabled;
+
+        this.gameObject.GetComponent<MeshRenderer>().material = enabled ?
+            original_material : disabled_material;
     }
 }
