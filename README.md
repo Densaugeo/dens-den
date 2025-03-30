@@ -4,6 +4,13 @@ Den's Den VRChat world
 
 ## Setup
 
+Create deploy key on Windows
+```
+cd ~/.ssh
+ssh-keygen -t ed25519 -f id_ed25519_PROJECT_NAME -C $(hostname)
+```
+SSH agent doesn't work on Windows, so to use the deploy key edit ~/.ssh/config. 
+
 GLTF models require the com.unity.cloud.gltfast package
 - Window > Package Manager > + > Add package by name... > com.unity.cloud.gltfast > Add
 
