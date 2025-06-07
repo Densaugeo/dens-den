@@ -37,3 +37,14 @@ Pickups
 - Need to add a collider, which is not created automatically
 - Need to add VRC Object Sync script
   * If this causes a build error related to network IDs, use VRChat SDK > Utilities > Network ID ... > Regenerate Scene IDs
+
+## RGB Targets
+
+Based on VRC default home and the Gigas world.
+
+Shadowed indoor areas: 30-50
+Dimly lit indoor areas: 60-80
+Brightly lit indoor areas: 80-a0
+Emissives: ff
+Blue:red bias: 5-20%
+Green:red bias: 1-4%
