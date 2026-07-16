@@ -38,6 +38,10 @@ Pickups
 - Need to add VRC Object Sync script
   * If this causes a build error related to network IDs, use VRChat SDK > Utilities > Network ID ... > Regenerate Scene IDs
 
+Lighting
+- World is too bright
+- Tried Window > Rendering > Lighting > Environment and toning down the colors under environment lighting
+
 ## RGB Targets
 
 Based on VRC default home and the Gigas world.
